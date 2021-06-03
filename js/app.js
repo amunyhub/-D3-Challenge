@@ -20,7 +20,7 @@ var svg = d3.select("#scatter")
 // Read the data
 // d3.csv("../data/data.csv", function(healthData) {
 
-d3.csv("../data/data.csv").then(function(healthData) {
+d3.csv("../data.csv").then(function(healthData) {
 
 // change data from strings
     healthData.forEach(function(data) {
